@@ -1,32 +1,33 @@
+/* utility */
 *{
   margin: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
 body{
-  background-color: #E3E5E4;
+  background-color: #F6F8F9;
 }
 hr{
-  border: 1px solid #E3E5E4;
+  border: 1px solid #F6F8F9;
 }
+/* utility */
+
+/* header */
 header{
-  background-color: white;
+  background-color: #FFFFFF;
   padding: 10px 15px;
 }
-
 .title{
   display: inline;
   vertical-align: middle;
+  font-size: 40px;
 }
 .logo{
   vertical-align: middle;
 }
-.container{
-  background-color: white;
-  width: 80%;
-  margin: 30px auto;
-  padding-bottom: 40px
-}
+/* header */
+
+/* button */
 .button-section{
   padding: 10px 40px;
 }
@@ -35,9 +36,19 @@ button{
  border-radius: 5px;
 }
 .task{
-  background-color: #5CC0E0;
+  background-color: #47ADF1;
   color: white;
   border: none;
+}
+/* button */
+
+/* main */
+main{
+  background-color: #FFFFFF;
+  width: 80%;
+  margin: 30px auto;
+  padding-bottom: 40px;
+  border-radius: 5px;
 }
 ul{
   list-style: none;
@@ -49,19 +60,18 @@ h2::before{
 .check::before{
   content: ' \2713';
   color: green;
-  padding: 3px;
+  padding: 1px 3px;
   border-radius: 50%;
   border: 1px solid green;
   font-size: 10px;
 }
-
 .x::before{
   content: ' \2573';
   color: red;
-  padding: 3px;
+  padding:2px 3px 2px 3px;
   border-radius: 50%;
   border: 1px solid red;
-  font-size: 10px;
+  font-size: 8px;
 }
 .check ,.x{
   margin-top: 10px;
@@ -74,22 +84,22 @@ h2::before{
   font-size: 0.6em;
 }
 .editorial{
-  background-color: #5CC0E0;
+  background-color: #47ADF1;
 }
 .q1goals{
-  background-color: #7C569E;
+  background-color: #9C72E4;
 }
 .reqruiting{
-  background-color: #8BD1BC;
+  background-color: #64C0A9;
 }
 .mobile{
-  background-color: #D9AD19;
+  background-color: #F29E33;
 }
 .website{
-  background-color: #D85888;
+  background-color: #D863A1;
 }
 .sales{
-  background-color: #B4D56C;
+  background-color: #B0C926;
 }
 h4{
   margin-left: 10px;
@@ -101,3 +111,4 @@ h4{
 .list{
   margin-top: 40px;
 }
+/* main */
